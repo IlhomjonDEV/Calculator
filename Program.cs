@@ -17,5 +17,4 @@ if(numberOne == numberTwo){
     Console.WriteLine(numberOne > numberTwo ? "1st number is large" : "2nd number is large");
 }
 
-
 Console.WriteLine("\nYou'll be healthy...");
