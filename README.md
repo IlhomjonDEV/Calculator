@@ -1,5 +1,5 @@
 # Calculator
-Simple calculator
+Simple calculator V2
 
 V1. Addition, subtraction, division and multiplication
 
