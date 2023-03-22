@@ -10,6 +10,13 @@ Console.WriteLine($"{numberOne} - {numberTwo} = {numberOne - numberTwo}");
 Console.WriteLine($"{numberOne} : {numberTwo} = {numberOne / numberTwo} residual({numberOne % numberTwo})");
 Console.WriteLine($"{numberOne} * {numberTwo} = {numberOne * numberTwo}\n");
 
+// logical operator
+string massage = 
+    numberOne >= 0 && numberTwo >= 0
+    ? "Numbers are positive"
+    : "Numbers are negative";
+Console.WriteLine(massage);
+
 // if else, ternary operator
 if(numberOne == numberTwo){
     Console.WriteLine("Numbers are equal");
