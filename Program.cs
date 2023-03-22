@@ -16,7 +16,16 @@ Console.WriteLine($"1st number is greater than 2nd : {numberOne > numberTwo}");
 Console.WriteLine($"1st number is greater than or equal to 2nd : {numberOne >= numberTwo}");
 Console.WriteLine($"1st number is smaller than 2nd : {numberOne < numberTwo}");
 Console.WriteLine($"1st number is less than or equal to 2nd : {numberOne <= numberTwo}");
-Console.WriteLine($"1st number is equal to 2nd : {numberOne == numberTwo}");
-Console.WriteLine($"1st number is not equal to 2nd : {numberOne != numberTwo}");
+Console.WriteLine($"Numbers is equal : {numberOne == numberTwo}");
+Console.WriteLine($"Numbers is not equal : {numberOne != numberTwo}");
+
+Console.WriteLine("\nConditional check of numbers: ");
+if(numberOne == numberTwo){
+    Console.WriteLine("Numbers are equal");
+} else if(numberOne < numberTwo){
+    Console.WriteLine("2nd number is large");
+} else {
+    Console.WriteLine("1st number is large");
+}
 
 Console.WriteLine("\nYou'll be healthy...");
