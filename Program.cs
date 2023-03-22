@@ -2,13 +2,32 @@
 
 Console.Write("Type 1st number: ");
 int numberOne = Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter operation(+,-,/,*,%) ");
+string operation = Console.ReadLine();
 Console.Write("Type 2nd number: ");
 int numberTwo = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine($"\n{numberOne} + {numberTwo} = {numberOne + numberTwo}");
-Console.WriteLine($"{numberOne} - {numberTwo} = {numberOne - numberTwo}");
-Console.WriteLine($"{numberOne} : {numberTwo} = {numberOne / numberTwo} residual({numberOne % numberTwo})");
-Console.WriteLine($"{numberOne} * {numberTwo} = {numberOne * numberTwo}\n");
+// switch 
+switch (operation){
+    case "+":
+        Console.WriteLine($"{numberOne} + {numberTwo} = {numberOne + numberTwo}");
+        break;
+    case "-":
+        Console.WriteLine($"{numberOne} - {numberTwo} = {numberOne - numberTwo}");
+        break;
+    case "/":
+        Console.WriteLine($"{numberOne} : {numberTwo} = {(float)numberOne / numberTwo}");
+        break;
+    case "*":
+        Console.WriteLine($"{numberOne} * {numberTwo} = {numberOne * numberTwo}\n");
+        break;
+    case "%":
+        Console.WriteLine($"{numberOne} % {numberTwo} = {numberOne % numberTwo}");
+        break;
+    default :
+        Console.WriteLine("Operation Not Found!");
+        break;
+}
 
 // logical operator
 string massage = 
