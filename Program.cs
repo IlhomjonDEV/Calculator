@@ -34,5 +34,3 @@ if(numberOne == numberTwo){
 }
 
 Console.WriteLine("\nYou'll be healthy...");
-
-Console.WriteLine("Nimadir");
