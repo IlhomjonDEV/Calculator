@@ -1,7 +1,7 @@
 # Calculator
 
 Simple calculator V3
-<br/>
+____
 V1. Addition, subtraction, division and multiplication
 ____
 V2. Comparison numbers
